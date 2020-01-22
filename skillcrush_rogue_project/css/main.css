@@ -13,14 +13,17 @@
     src: url('../fonts/wisdom_script.eot?#iefix') format('embedded-opentype');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
 /******************** GLOBAL ********************/
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', serif;
     color: #000000;
     font-size: 16px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
 }
 
 .green {
@@ -28,28 +31,28 @@ body {
 }
 
 .full-width {
-    width: 1200px;
+    width: 93.75%;
     margin: 0 auto;
 }
 
 .header-full-width {
-    width: 1240px;
+    width: 96.875%;
     margin: 0 auto;
 }
 
 .half-width {
-    width: 600px;
+    width: 46.875%;
     float: left;
 }
 
 .nav-half-width {
-    width: 640px;
+    width: 50%;
     float: left;
     justify-content: right;
 }
 
 .third-width {
-    width: 400px;
+    width: 26.5625%;
     float: left;
 }
 
@@ -57,45 +60,49 @@ body {
 /******************** HEADER ********************/
 
 header {
-    height: 160px;
+    height: 110px;
     justify-content: space-between;
     padding-left: 40px;
 }
 
 h1 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     line-height: 0.676;
     padding-top: 50px;
+    margin: 0;
 }
 
 nav {
     padding-top: 50px;
+    margin: 0;
 }
 
 nav ul {
     float: right;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     padding-left: 30px;
     display: inline-block;
-}
-
-nav ul li a {
-    text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.643;
     list-style: none;
 }
+nav ul li a {    
+    text-decoration: none;
+    color: #77a466;
+}
     
 /******************** INTRO ********************/
 
 #hero {
-    height: 507px;
+    height: 491px;
 }
 
 img {
@@ -106,7 +113,7 @@ img {
 h2 {
     font-size: 18px;
     color: #77a466;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     line-height: 1.278;
     margin: 30px 0;
@@ -119,34 +126,49 @@ h2 {
 
 /******************** SPECIALS/REVIEWS/CONTACT ********************/
 #content {
-    height: 225px;
+    height: 235px;
     border-top: 1px solid #dedbdc;
     border-bottom: 1px solid #dedbdc;   
 }
 
 h3 {
     font-size: 12px;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
-    margin: 30px 0 30px 0;
+    margin: 0 0 25px 0;
     line-height: 2.083;
 }
   
 /******************** SPECIALS ********************/
 
+#specials {
+    padding: 30px 0;
+}
+
 #specials ul li {
     list-style: none;
     line-height: 1.125;
-    margin: 0 0 30px -40px;
+    margin-left: -40px;
+    padding-bottom: 20px;
 }  
 
 /******************** REVIEWS ********************/ 
 
+#reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    margin: -1px;
+    padding: 30px;
+}
 #reviews p {
     line-height: 1.313;
   }
   
 /******************** CONTACT ********************/
+
+#contact {
+    padding: 30px;
+}
 
 #contact p {
     line-height: 1.5;
@@ -161,10 +183,11 @@ h3 {
 
 footer {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     line-height: 1.438;
     padding: 34px 0 34px 0;
     text-align: center;
+    margin: 0;
 }
   
