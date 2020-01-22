@@ -31,17 +31,17 @@ body {
 }
 
 .full-width {
-    width: 100%;
+    width: 96.77%;
     margin: 0 auto;
 }
 
 .half-width {
-    width: 50%;
+    width: 48.39%;
     float: left;
 }
 
 .nav-half-width {
-    width: 50%;
+    width: 51.61%;
     float: left;
     justify-content: right;
 }
