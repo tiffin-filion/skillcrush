@@ -1,3 +1,3 @@
 # jubilee project
-This is a Skillcrush project. I was given a psd, jpg as well as directions to create this from a PSD.
+I was given a PSD, jpg as well as directions to create this page.
 ![Wireframe](./design%20files/skillcrush-student-site-annotated.png)
