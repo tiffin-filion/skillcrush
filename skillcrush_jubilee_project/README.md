@@ -1,3 +1,3 @@
 # jubilee project
-I was given a PSD, jpg as well as directions to create this page.
-![Wireframe](./design%20files/skillcrush-student-site-annotated.png)
+I had a bit of direction, but I started to learn how to develop a static web page from a PSD.
+![Wireframe](skillcrush-student-site-annotated.png)
