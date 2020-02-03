@@ -1,7 +1,7 @@
 # Skillcrush
 Projects completed with Skillcrush
 
-[Jubilee Project](https://tiffin-filion.github.io/Skillcrush/skillcrush_jubilee_project/index.html)
+[Jubilee Project](https://tiffin-filion.github.io/Skillcrush/skillcrush_jubilee_project/index.html) - I was given a PSD, jpg as well as directions to create this page.
 
 [Rogue Project](https://tiffin-filion.github.io/Skillcrush/skillcrush_rogue_project/index.html)
 
