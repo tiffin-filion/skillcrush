@@ -106,7 +106,10 @@ a {
 
 .image {
     margin: 25px 25px 25px 0;
-    padding-left: 325px;
+    padding-left: 125px;
+    padding-right: 225px;
+    width: 275px;
+    height: 175px;
 }
 
 #portfolio a img:hover {
@@ -117,12 +120,34 @@ a {
     margin: 25px 0 25px 25px;
     height: 175px;
     width: 550px;
-    padding-right: 100px;
+    padding-right: 125px;
 }
 
 #portfolio div:nth-child(6), #portfolio div:nth-child(7) {
     margin-bottom: 50px;
 }
+
+/******************** PROJECT PAGE/PROJECTS ********************/
+#projects {
+    height: 2000px;
+    background-color: #f2f2f2;
+}
+
+
+#projects p {
+    margin-top: 0;
+    padding-right: 100px;
+    width: 550px;
+    color: #0b5959;
+}
+
+#projects a img:hover {
+    border: 1px solid #d9d059;
+}
+
+/*#projects div:nth-child(6), #projects div:nth-child(7) {
+    margin-bottom: 50px;
+}*/
 
 /******************** ABOUT ********************/
 #about {
