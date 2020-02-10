@@ -1,22 +1,22 @@
 /******************** FONTS ********************/
 
 @font-face {
-    font-family: 'WisdomScriptAI';
-    src: url('../fonts/WisdomScriptAI.svg') format('svg'),
-         url('../fonts/WisdomScriptAI.ttf') format('truetype'),
-         url('../fonts/WisdomScriptAI.woff') format('woff');
+    font-family: "wisdom-script-ai";
+    src: url("../fonts/wisdom-script-ai.svg") format("svg"),
+         url("../fonts/wisdom-script-ai.ttf") format("truetype"),
+         url("../fonts/wisdom-script-ai.woff") format("woff");
 }
   
 @font-face {
-    font-family: 'wisdom_script';
-    src: url('../fonts/wisdom_script.eot');
-    src: url('../fonts/wisdom_script.eot?#iefix') format('embedded-opentype');
+    font-family: "wisdom-script";
+    src: url("../fonts/wisdom-script.eot");
+    src: url("../fonts/wisdom-script.eot?#iefix") format("embedded-opentype");
 }
 
 /******************** GLOBAL ********************/
 
 body {
-    font-family: 'Montserrat', serif;
+    font-family: "Montserrat", serif;
     color: #000000;
     font-size: 16px;
 }
@@ -172,7 +172,7 @@ h3 {
 /******************** FOOTER ********************/
 
 #wisdom {
-    font-family: "WisdomScriptAI", "wisdom_script";
+    font-family: "wisdom-script-ai", "wisdom-script";
     text-transform: lowercase;
 }
 
