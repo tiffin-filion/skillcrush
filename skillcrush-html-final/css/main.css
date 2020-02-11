@@ -1,6 +1,6 @@
 /******************** GRID/BODY ********************/
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Varela+Round|Bad+Script");
+@import url("https://fonts.googleapis.com/css?family=Bad+Script|Montserrat:400,700|Varela+Round&display=swap");
 
 .container {
     width: 1400px;
@@ -132,7 +132,7 @@ a {
 
 /******************** PROJECT PAGE/PROJECTS ********************/
 #projects {
-    height: 2000px;
+    height: 2250px;
     background-color: #f2f2f2;
 }
 
