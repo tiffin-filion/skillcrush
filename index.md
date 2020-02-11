@@ -1,6 +1,3 @@
-# Skillcrush
-Projects completed with Skillcrush - right click and open in new tab
-
 [Jubilee Project](https://tiffin-filion.github.io/skillcrush/jubilee/index.html) - I had a bit of direction, but I started to learn how to develop a static web page from a PSD.
 
 [Rogue Project](https://tiffin-filion.github.io/skillcrush/rogue/index.html) - I learned how to develop a static web page with nothing but a PSD file for guidance.

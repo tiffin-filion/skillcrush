@@ -1,5 +1,7 @@
 /******************** FONTS ********************/
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
 @font-face {
     font-family: "wisdom-script-ai";
     src: url("../fonts/wisdom-script-ai.svg") format("svg"),
