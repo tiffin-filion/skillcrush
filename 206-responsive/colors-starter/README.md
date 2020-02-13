@@ -1,0 +1,2 @@
+# colors-starter
+I just had to add different colors for each type of viewport (mobile, tablet and desktop) so you could see the change as the page size/viewport size changed. Page was created mobile first.
