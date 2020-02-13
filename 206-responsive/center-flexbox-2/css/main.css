@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #f2f1f0;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #f2f1f0;
     text-shadow: none;
 }
 
@@ -42,7 +42,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #03060d;
     margin: 1em 0;
     padding: 0;
 }
@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/unicorn.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
    /* set height to 100% - these are important for allowing content to vertically align */
@@ -110,6 +110,7 @@ body {
 
 .wrapper {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
@@ -121,12 +122,12 @@ body {
 #content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
-    background: #222;
-    background:rgba(0,0,0,0.7);
-    color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    background: #bf738f;
+    background:rgba(191, 115, 143, 0.5);
+    color: #f2f1f0;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1.25em;
     line-height: 1.5em;
@@ -137,10 +138,24 @@ body {
 }
 
 #content p span {
-    font-family: 'Lora', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
 }
 
-
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #4c5973;
+    background:rgba(76, 89, 115, 0.5);
+    color: #03060d;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    width: 300px;
+    height: 25px;
+}
 
 
 
@@ -224,8 +239,11 @@ body {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 940px) {
+    /* Style adjustments for tablets */
+    .wrapper {
+        align-items: flex-start;
+    }
 }
 
 @media print,
