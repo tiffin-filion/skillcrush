@@ -6,3 +6,6 @@ Page was created mobile first. Add breakpoints for tablets: 768px and desktops: 
 
 # font-color-starter
 Page was created mobile first. Change h1, h2 and p as the page resizes from mobile to tablet to desktop.
+
+# center-flexbox-starter
+Page was created mobile first. Utilize flexbox to center text over an image.
