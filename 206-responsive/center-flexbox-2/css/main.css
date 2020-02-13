@@ -157,7 +157,30 @@ body {
     height: 25px;
 }
 
+#attribution {
+    float: right;
+    background: #03060d;
+    background:rgba(3, 6, 13, 0.5);
+    color: #f2f1f0;
+    margin-top: -45px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 300px;
+    height: 25px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+}
 
+#attribution a {
+    color: #f2f1f0;
+    text-decoration: none;
+}
+
+#attribution a:hover {
+    color: #bf738f;
+}
 
 /* ==========================================================================
    Helper classes
