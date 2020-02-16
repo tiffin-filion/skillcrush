@@ -108,20 +108,44 @@ body {
   height: 100%;
 }
 
+header {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    line-height: 1.75em;
+    font-size: 1.5em;
+    background-color: #000;
+    height: auto;
+    font-family: 'Lora', serif;
+}
+
+.intro {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    line-height: 1.75em;
+    font-size: 1.5em;
+    background-color: #000;
+    height: auto;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: 'Lora', serif;
+}
+
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
   font-weight: 400;
   display: flex;
   justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center - 320 mobile*/
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
   background-color: #000;
-  height: 500px;
+  height: auto;
   display: flex;
   width: 30%;
   justify-content: flex-start;
@@ -132,6 +156,17 @@ body {
     border-right: 1px solid #555;
 }
 
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    width: 10%;
+    margin: 10px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -212,30 +247,6 @@ body {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
-   @media (min-width: 400px) {
-        .div-1, .div-2, .div-3 {
-            height: 400px;
-        }
-   }
-
-   @media (min-width: 530px) {
-        .div-1, .div-2, .div-3 {
-            height: 300px;
-        }
-   }
-
-   @media (min-width: 760px) {
-       .div-1, .div-2, .div-3 {
-           height: 200px;
-       }
-   }
-
-   @media (min-width: 1600px) {
-       .div-1, .div-2, .div-3 {
-           height: 100px;
-       }
-   }
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
