@@ -19,7 +19,7 @@ body {
 
 .container {
 	max-width: 1200px;
-	width: 100%;
+	width: 90%;
 	display: flex;
 	flex-flow: wrap;
 	flex-direction: column;
@@ -95,7 +95,7 @@ header nav ul li {
 	align-items: center;
 }
 
-header nav ul li a{
+header nav ul li a {
 	text-decoration: none;
 	color:#77a466;
 }
@@ -188,7 +188,7 @@ footer span {
 }
 
 /* media query for tablet */
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
 
 	.bottom-section {
 		flex-direction: row;
@@ -208,14 +208,17 @@ footer span {
 }
 
 /* media query for desktop */
-@media (min-width: 1024px) {
+@media all and (min-width: 1200px) {
 	header {
 		flex-direction: row;
-		justify-content: space-between;
 	}
-
+	
+	header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+	
 	header nav ul li {
-		display: inline;
 		padding: 0 .625em;
 	}
 }
