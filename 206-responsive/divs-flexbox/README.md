@@ -1,2 +1,2 @@
 # divs-flexbox
-Page was created mobile first. Goal is to use flexbox to get three divs to align in a row, evenly-spaced. Then added content to divs as well as styling to the page.
+Page was created mobile first. Goal is to use flexbox to get three divs to align in a row, evenly-spaced. Then added content to divs as well as styling to the page. Added two top full-width content areas as well as a full-width footer.
