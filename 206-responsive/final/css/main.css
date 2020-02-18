@@ -167,6 +167,10 @@ footer .content-wrapper, footer .footer-content {
   width: 100%;
 }
 
+footer p {
+  margin: 0;
+}
+
 footer .contact {
   display: flex;
   flex-direction: column;
@@ -232,6 +236,10 @@ aside .form {
 
 #features article {
   width: 55.56%;
+}
+
+#features p {
+  margin: 0;
 }
 
 #reviews {
