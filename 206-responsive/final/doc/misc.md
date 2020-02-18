@@ -42,21 +42,21 @@ your team define and maintain consistent coding styles between different
 editors and IDEs.
 
 By default, `.editorconfig` includes some basic
-[properties](https://editorconfig.org/#supported-properties) that reflect the
+[properties](http://editorconfig.org/#supported-properties) that reflect the
 coding styles from the files provided by default, but you can easily change
 them to better suit your needs.
 
 In order for your editor/IDE to apply the
-[properties](https://editorconfig.org/#supported-properties) from the
+[properties](http://editorconfig.org/#supported-properties) from the
 `.editorconfig` file, you may need to [install a
-plugin]( https://editorconfig.org/#download).
+plugin]( http://editorconfig.org/#download).
 
 __N.B.__ If you aren't using the server configurations provided by HTML5
 Boilerplate, we highly encourage you to configure your server to block
 access to `.editorconfig` files, as they can disclose sensitive information!
 
 For more details, please refer to the [EditorConfig
-project](https://editorconfig.org/).
+project](http://editorconfig.org/).
 
 
 ## Server Configuration
@@ -84,7 +84,7 @@ example, a <Directory> section in the main configuration file. This is usually
 the recommended way, as using .htaccess files slows down Apache!
 
 To enable Apache modules locally, please see:
-https://github.com/h5bp/server-configs-apache#enable-apache-httpd-modules.
+https://github.com/h5bp/server-configs-apache/wiki/How-to-enable-Apache-modules.
 
 In the repo the `.htaccess` is used for:
 
@@ -137,7 +137,7 @@ you want to block access to private content, use proper authentication instead.
 
 For more information about `robots.txt`, please see:
 
-  * [robotstxt.org](https://www.robotstxt.org/)
+  * [robotstxt.org](http://www.robotstxt.org/)
   * [How Google handles the `robots.txt` file](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt)
 
 ## humans.txt
@@ -147,9 +147,9 @@ the website.
 
 The provided file contains three sections:
 
-  * `TEAM` - this is intended to list the group of people responsible for the website
+  * `TEAM` - this is intented to list the group of people responsible for the website
   * `THANKS` - this is intended to list the group of people that have contributed
-  to the website
+  to the webste
   * `TECHNOLOGY COLOPHON` - the section lists technologies used to make the website
   
 For more information about `humans.txt`, please see: http://humanstxt.org/
@@ -170,4 +170,4 @@ By default, the file points to 2 placeholder tile images:
 Notice that IE11 uses the same images when adding a site to the `favorites`.
 
 For more in-depth information about the `browserconfig.xml` file, please
-see [MSDN](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)).
+see [MSDN](https://msdn.microsoft.com/library/dn320426.aspx).
