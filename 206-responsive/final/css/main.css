@@ -110,15 +110,13 @@ textarea {
   src: url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700&display=swap");
 }
 
-/* base header - footer styles */
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+/* global styles*/
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
 }
 
+/* base header - footer styles */
 header, footer {
   display: flex;
   justify-content: center;
@@ -126,96 +124,90 @@ header, footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
-  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  flex-flow: row wrap;
+  margin: 0;
 }
 
 .header-divider {
   width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   flex-flow: row wrap;
-  width: 61%;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  list-style: none;
-  padding: 0;
 }
 
-header nav ul li a {
-  color: #e2e3ed;
-  text-decoration: none;
-}
-
-footer .content-wrapper, footer .footer-content {
-  display: flex;
+footer {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
 }
 
 footer p {
   margin: 0;
 }
 
-footer .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 44.4%;
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
-footer .social {
-  display: flex;
-  justify-content: center;
-  width: 55.6%;
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/* main page styles */
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+/* mobile styles - homepage */
+
+/* hero */
 #hero-area {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
-#hero-area .content-wrapper {
-  width: 88.89%;
-}
+/* aside */
 
 aside {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-aside .content-wrapper {
-  width: 88.89%;
-}
-
-aside .form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+/* features */
 
 #features {
   display: flex;
@@ -223,24 +215,27 @@ aside .form {
   justify-content: center;
 }
 
-#features .content-wrapper {
-  width: 88.89%;
+#features h2 {
+  margin-bottom: 60px;
+}
+
+#features article {
+  width: 63%;
+  margin: 30px 0;
 }
 
 #features .features-items {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
-  text-align: center;
-}
-
-#features article {
-  width: 55.56%;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 #features p {
   margin: 0;
 }
+
+/* reviews */
 
 #reviews {
   display: flex;
@@ -248,21 +243,32 @@ aside .form {
   justify-content: center;
 }
 
-#reviews .content-wrapper {
-  width: 88.89%;
+#reviews h2 {
+  margin-bottom: 40px;
+}
+
+#reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
 /* about page styles */
 .mission {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
-  width: 88.89%;
 }
 
 .contact-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
-  width: 88.89%;
+}
+
+.contact-section p {
+  margin: 0;
 }
 
 /* faq page styles */
@@ -270,13 +276,23 @@ aside .form {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 100%;
+  align-items: center;
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   flex-flow: row wrap;
-  width: 88.89%;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
