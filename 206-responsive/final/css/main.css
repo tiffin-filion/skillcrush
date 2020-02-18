@@ -111,6 +111,14 @@ textarea {
 }
 
 /* base header - footer styles */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 header, footer {
   display: flex;
   justify-content: center;
@@ -120,20 +128,29 @@ header, footer {
 
 header .content-wrapper {
   display: flex;
-  flex-flow: column wrap; 
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-divider {
+  width: 100%;
 }
 
 header nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-flow: row wrap;
+  width: 61%;
 }
 
 header nav ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   list-style: none;
+  padding: 0;
 }
 
 header nav ul li a {
@@ -141,16 +158,26 @@ header nav ul li a {
   text-decoration: none;
 }
 
-footer {
+footer .content-wrapper, footer .footer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  width: 100%;
+}
+
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 44.4%;
 }
 
 footer .social {
   display: flex;
   justify-content: center;
+  width: 55.6%;
 }
 
 footer .social-icons {
@@ -163,11 +190,21 @@ footer .social-icons {
 #hero-area {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+}
+
+#hero-area .content-wrapper {
+  width: 88.89%;
 }
 
 aside {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+}
+
+aside .content-wrapper {
+  width: 88.89%;
 }
 
 aside .form {
@@ -179,38 +216,59 @@ aside .form {
 #features {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+}
+
+#features .content-wrapper {
+  width: 88.89%;
 }
 
 #features .features-items {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#features article {
+  width: 55.56%;
 }
 
 #reviews {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+}
+
+#reviews .content-wrapper {
+  width: 88.89%;
 }
 
 /* about page styles */
 .mission {
   display: flex;
   flex-flow: row wrap;
+  width: 88.89%;
 }
 
-.content-section {
+.contact-section {
   display: flex;
   flex-flow: row wrap;
+  width: 88.89%;
 }
 
 /* faq page styles */
 .faq {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .faq .content-wrapper {
   display: flex;
   flex-flow: row wrap;
+  width: 88.89%;
 }
 
 /* ==========================================================================
