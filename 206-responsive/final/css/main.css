@@ -12,10 +12,12 @@
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+  font-size: 14px;
+  background-color: #202322;
+  font-family: "Open Source", sans-serif;
+  color: #e2e3ed;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -97,6 +99,119 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* fonts */
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700&display=swap");
+}
+
+/* base header - footer styles */
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  flex-flow: column wrap; 
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* main page styles */
+#hero-area {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+aside {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+aside .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#features {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#features .features-items {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#reviews {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* about page styles */
+.mission {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.content-section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* faq page styles */
+.faq {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 /* ==========================================================================
    Helper classes
