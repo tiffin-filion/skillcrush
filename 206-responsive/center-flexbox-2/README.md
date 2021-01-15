@@ -1,2 +1,0 @@
-# center-flexbox-2
-Page was created mobile first. Modify CSS so text box is centered on page, as well as the content it contains. Then changed the background, updated content box, added social icon box and made the page responsive.
