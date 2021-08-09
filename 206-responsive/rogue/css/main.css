@@ -1,0 +1,224 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+html {
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	font-size: 1em;
+	padding: 0em 2em;
+}
+
+.container {
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	flex-flow: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: .75em;
+}
+
+p {
+	font-size: .875em;
+	line-height: 1.313em;
+    padding: 0 1.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: .875em 0;
+}
+
+header h1 {
+	display: flex;
+	border-bottom: .1em solid #77a466;
+}
+
+header h1 span {
+	color: #77a466;
+	padding-right: .25em;
+}
+
+header nav {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .875em;
+	padding: .625em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.main-image {
+	display: flex;
+	width: auto;
+	height: auto;
+}
+.main-image img {
+	width: 100%;
+	border-top: .188em solid #77a466;
+	border-bottom: .188em solid #77a466;
+}
+
+.main-title {
+	height: auto;
+}
+.main-title h3 {
+	text-align: left;
+	padding: .313em 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.563em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	border-top: .063em solid #eee;
+}
+
+.section-one h4, 
+.section-two h4,
+.section-three h4 {
+	padding: .625em 0;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: .625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	padding: 0;
+	color: #333;
+	font-size: 1em;
+	line-height: 1.313em;
+}
+
+.address {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	height: 3.125em;
+	border-top: .188em solid #eee;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .875em;
+}
+
+/* media query for tablet */
+@media all and (min-width: 768px) {
+
+	.bottom-section {
+		flex-direction: row;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		padding: 0 .625em;
+	}
+
+	.section-two {
+		border-left: .063em solid #eee;
+		border-right: .063em solid #eee;
+	}
+}
+
+/* media query for desktop */
+@media all and (min-width: 1200px) {
+	header {
+		flex-direction: row;
+	}
+	
+	header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+	
+	header nav ul li {
+		padding: 0 .625em;
+	}
+}
