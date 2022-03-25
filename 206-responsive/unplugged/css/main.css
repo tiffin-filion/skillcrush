@@ -1,5 +1,4 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -76,99 +75,357 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Browser Upgrade Prompt
    ========================================================================== */
-:root {
-  --defaultFont: "OpenSans", sans-serif;
-  --defaultSize: 18px;
-  --accentFont: "Poppins-Medium";
-  --small: 24px;
-  /* button */
-  --medium: 30px;
-  /* h4 */
-  --medLrg: 36px;
-  /* h3 */
-  --large: 48px;
-  /* h2 */
-  --xlarge: 60px;
-  /* h1 */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
-header, footer {
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* variables */
+:root {
+  --darkGrey: #202322;
+  --white: #e2e3ed;
+  --lightGrey: #3a3a3a;
+  --green: #527158;
+  --darkGreen: #2a423a;
+  --bold: 500;
+  --headerFont: 'Poppins', Helvetica, Arial, sans-serif;
+  --h3: 1.125em;
+  --smallMargin: 20px 0;
+  --medMargin: 50px 0;
+  --smallPadding: 15px 0;
+}
+
+/* General Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color: var(--white);
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+h2 {
+  font-family: var(--headerFont);
+  font-size: 1.875em;
+  font-weight: var(--bold);
+  font-family: var(--headerFont);
+}
+
+h3, h4 {
+  font-family: var(--headerFont);
+  font-size: var(--h3);
+  margin: var(--smallMargin);
+  font-weight: var(--bold);
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: var(--medMargin);
+}
+
+/* -------------------- Base Header - Footer Styles -------------------- */
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: var(--darkGrey);
+}
+
+header {
+  padding: var(--smallPadding);
+}
+
+header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-header .content-wrapper {
+header figure {
+  width: 60%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 var(--smallMargin);
+  background-color: var(--lightGrey);
+}
+
 header nav {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  font-size: var(--h3);
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
   display: flex;
-  list-style-type: none;
-  text-transform: uppercase;
   justify-content: space-around;
+  width: 100%;
+}
+
+header nav ul li {
+  font-size: var(--h3);
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: var(--medMargin);
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer .social p {
+footer .social-icons p {
+  background-color: var(--green);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+footer .copyright {
+  margin: var(--smallMargin);
+}
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+/* Hero Area */
 .hero-area {
   display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-image: url("../img/unplugged-retreat.jpg");
+  background-size: cover;
+  background-color: var(--darkGrey);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: var(--headerFont);
+  font-weight: var(--bold);
+  line-height: 1.2;
+}
+
+/* Aside */
 aside {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: var(--green);
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: var(--darkGreen);
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: var(--smallMargin);
+  margin-top: 20px;
+  background-color: var(--darkGreen);
+  font-family: var(--headerFont);
+  font-weight: var(--bold);
+  font-size: var(--h3);
+  color: var(--white);
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-image: url("../img/unplugged-retreat-features.jpg");
+  background-size: cover;
+  background-color: var(--darkGrey);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
-#features {
-  display: flex;
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
-.features-items {
-  display: flex;
-  flex-flow: row wrap;
+.features p {
+  margin: 0;
+  text-align: center;
 }
 
-#reviews {
+/* Reviews */
+.reviews {
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
+  background-color: var(--darkGreen);
 }
 
-.mission-content {
+.reviews h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: var(--smallMargin);
+}
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+.mission {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  background-color: var(--green);
 }
 
 .contact-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  background-color: var(--darkGreen);
 }
 
+.contact-content p {
+  margin: 0;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
 .faq {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  background-color: var(--green);
 }
 
 .faq .content-wrapper {
+  margin: var(--medMargin) 0 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
@@ -177,8 +434,7 @@ aside {
 /*
  * Hide visually and from screen readers
  */
-.hidden,
-[hidden] {
+.hidden {
   display: none !important;
 }
 
@@ -190,33 +446,33 @@ aside {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-.sr-only {
+.visuallyhidden {
   border: 0;
-  clip: rect(0, 0, 0, 0);
+  clip: rect(0 0 0 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  white-space: nowrap;
   /* 1 */
 }
 
 /*
- * Extends the .sr-only class to allow the element
+ * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
   overflow: visible;
   position: static;
-  white-space: inherit;
   width: auto;
+  white-space: inherit;
 }
 
 /*
@@ -237,13 +493,15 @@ aside {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clearfix::before,
-.clearfix::after {
+.clearfix:before,
+.clearfix:after {
   content: " ";
+  /* 1 */
   display: table;
+  /* 2 */
 }
 
-.clearfix::after {
+.clearfix:after {
   clear: both;
 }
 
@@ -252,6 +510,368 @@ aside {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width:768px) {
+
+  /*Tablet styles here*/
+  /* General styles */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+
+  /* Header */
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* Hero Area */
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size;
+    3em;
+    line-height: 1;
+    margin: 0;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    margin: var(--medMargin);
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+  }
+
+  /* Features */
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+
+  .features .features-item-description {
+    width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
+  }
+
+  /* Reviews */
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews h2 {
+    width: 85%;
+  }
+
+  .reviews article figure, .reviews article div {
+    width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size;
+    1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+  /* ==========================================================================
+   About Page
+   ========================================================================== */
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
+
+  /* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq h4, .faq p {
+    font-size: .875em;
+    line-height: 1.125;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+
+  /*Desktop styles here*/
+  header {
+    padding: 15px 0;
+  }
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3, h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
+  }
+
+  /* Hero */
+  .hero-area h1 {
+    font-size: 3.75em;
+    width: 68%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  .form-descrption p {
+    font-size: 1.125em;
+  }
+
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Reviews */
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
+  .reviews article div {
+    width: 42%;
+  }
+
+  footer h4 {
+    font-size: 1.875em;
+  }
+
+  /* ==========================================================================
+  About Page
+  ========================================================================== */
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+    font-size: 3em;
+  }
+
+  .contact-content h4 {
+    font-size: 1.875em;
+  }
+
+  /* ==========================================================================
+  FAQ Page
+  ========================================================================== */
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .faq h4, .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " ("attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " ("attr(title) ")";
+  }
+
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
