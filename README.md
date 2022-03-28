@@ -1,2 +1,3 @@
 # skillcrush
-Projects completed with Skillcrush Front End Developer Fast Track
+Front End Developer Career Track
+==right-click to open in a new window==
