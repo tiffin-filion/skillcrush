@@ -17,8 +17,8 @@
 | Unplugged | build a 3-page responsie site from a design comp that adapts to mobile, tablet, and desktop screens | CSS3, Flexbox, HTML5, Media Queries, Responsive Typography | GitHub, Photoshop, Text editors | Coding Responsive Websites | [Unplugged](https://tiffin-filion.github.io/skillcrush/206-responsive/unplugged/index.html) |
 | Rogue Pickings (Responsive) | transform a site from static to responsive so it looks great at any device size | CSS3, Flexbox, HTML5, Media Queries, Responsive Typography | GitHub, Text editors | Coding Responsive Websites | [Rogue Pickings v2](https://tiffin-filion.github.io/skillcrush/206-responsive/rogue/index.html) |
 
-####Skills:####
+#### Skills: ####
 CSS3, FTP & Web Hosting, HTML5, Git and the Command Line, GitHub, Version Control, Flexbox, Media Queries, Responsive Typography
 
-####Tools:####
+#### Tools: ####
 FTP Client, Photoshop, Text editors, Git, GitHub
