@@ -6,9 +6,9 @@
 - [ ] Introduction to JavaScript React
 - [ ] Build and Launch your Portfolio
 
-### Portfolio Projects: ### 
-| Project Name  | Description | Skills | Tools | Related Class | Link |
-| --- | --- | --- | --- | --- | --- |
+### Portfolio Projects: ###
+| ProjectName | Description | Skills | Tools | Class | Link |
+|:--------|:-------:|:--------:|:--------:|:--------:|--------:|
 | Simple One-Page Website | set up, code and launch a one-page website | CSS3, FTP & Web Hosting, HTML5 | FTP Client, Photoshop, Text editors | HTML & CSS | [Jubilee Austin](https://tiffin-filion.github.io/skillcrush/101-html-css/jubilee/index.html) |
 | Rogue Pickings | from design comp to completed website | CSS3, HTML5 | Photoshop, Text editors | HTML & CSS | [Rogue Pickings](https://tiffin-filion.github.io/skillcrush/101-html-css/rogue/index.html) |
 | Vision Board | bonus project: create a vision board that includes inspiring aspirations in a lovely layout | CSS3, HTML5 | Text editors | HTML & CSS | [2020 Vision Board](https://tiffin-filion.github.io/skillcrush/101-html-css/vision-board/index.html) |
