@@ -12,3 +12,23 @@
 	- Responsive - combines fluid (resizes to screen) & adaptive (design changes based on screen size) benefits that work across all devices without having to code different versions for different screen sizes (best option)
 - [Colors](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-projects/colors/index.html)
 	- Set different background colors for tablet & desktop using media queries (mobile is default)
+	- Set columns to 30% on desktop and 50% on tablet
+- [Breakpoints](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-projects/breakpoints/index.html)
+	- Create breakpoints for tablet and mobile using media queries
+	- Default breakpoint is mobile
+	- Color each breakpoint with a different background color
+- [Font Colors](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-projects/font-colors/index.html)
+	- Client requests different font colors (for header, subhead and paragraph) depending on screen size
+- [Flexbox](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-projects/flexbox/index.html)
+	- Create a text box and center it on the page
+- [Flexbox2](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-projects/flexbox2/index.html)
+	- Center page content horizontally and vertically
+- [Flexbox Customize](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-projects/flexbox-customize/index.html)
+	- Swap out background image to something else
+	- Re-style div
+	- Replace text
+- [Div to Flexbox](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-projects/div-to-flexbox/index.html)
+	- Get the three divs to line up in a row using flexbox
+	- Add content and style
+- [Flexbox3](https://tiffin-filion.github.io/skillcrush/206-responsive/practice-project/flexbox3/index.html)
+	- Using flexbox, align divs to have a header, main area, three divs as columns and a footer
