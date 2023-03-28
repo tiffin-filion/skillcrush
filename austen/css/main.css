@@ -1,0 +1,244 @@
+/****** Global Styles ******/
+:root {
+    --default-text: #5E5D5E;
+    --h1-text: #7B7E54;
+    --nav-text: #727172;
+    --h2-text: #817F80;
+    --skills-background: #F5F5F5;
+    --contact-background: #F9E9E9;
+    --header-background: #F9EFEF;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--default-text);
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: url('../img/full-background.png');
+    background-color:  var(--header-background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    float: left;
+    width: 300px;
+    margin: 0;
+    padding: 65px 0 65px 25px;
+    color: var(--h1-text);
+}
+
+header nav {
+    float: right;
+    padding: 75px 24px 75px 0;
+    width: 800px;
+    text-align: right;
+}
+
+header nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--nav-text);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+header h2 {
+    font-size: 72px;
+    line-height: 80px;
+    clear: both;
+    margin: 0;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+    font-family: 'Lora', serif;
+    color: var(--h2-text);
+}
+
+/****** About Styles ******/
+#about .content-wrapper {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    padding-left: 50px;
+    width: 500px;
+    margin: 0;
+}
+
+#about p {
+    float: left;
+    line-height: 40px;
+    padding: 0 50px;
+    width: 500px;
+}
+
+/****** Skill Styles ******/
+#skills {
+    background: var(--skills-background);
+    text-align: center;
+}
+
+#skills .content-wrapper {
+    padding: 115px 0;
+}
+
+.skill-list {
+    padding: 0 50px;
+    width: 300px;
+    float: left;
+}
+
+#skills h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.skill-list h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+.skill-list p {
+    line-height: 40px;
+    text-align: left;
+}
+
+/****** Contact Styles ******/
+#contact {
+    background: var(--contact-background);
+}
+
+#contact .content-wrapper {
+    padding: 110px 0;
+}
+
+#contact .contact-image {
+    float: left;
+    width: 600px;
+}
+
+#contact .contact-image img {
+    margin: 0 50px;
+    width: 500px;
+    height: 300px;
+    border: 12px solid white;
+    box-sizing: border-box;
+}
+
+#contact .contact-info {
+    float: left;
+    width: 600px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 30px 0;
+}
+
+#contact h3 {
+    font-size: 24px;
+    font=weight: 400;
+    line-height: 36px;
+}
+
+#contact #email-header {
+    margin-bottom: 5px;
+}
+
+#contact #socialmedia-header {
+    margin: 20px 0 5px 0;
+}
+
+#contact #envelope {
+    padding-right: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: var(--default-color);
+    font-size; 24px;
+    line-height: 36px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+/****** Projects Page Styles ******/
+/****** Projects Page Projects Styles ******/
+#projects {
+    background: var(--skills-background);
+    text-align: center;
+}
+
+#projects .content-wrapper {
+    padding: 115px 0;
+}
+
+.project-list {
+    padding: 0 50px;
+    width: 300px;
+    float: left;
+}
+
+#projects h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.project-list h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+.project-list p {
+    line-height: 40px;
+    text-align: left;
+}
+
+.project-list img {
+    width: 300px;
+}
