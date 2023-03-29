@@ -17,7 +17,7 @@ _right click links to open in a new tab_
 - [ ] Build and Launch your Portfolio
 
 #### Skills: ####
-HTML, CSS, DevTools
+HTML, CSS, DevTools, Version Control, Command Line, Local & Remote Repositories, Responsive Typography, Flexbox, Media Queries & Standard Breakpoints, Basic JavaScript
 
 #### Tools: ####
 FTP Client, Photoshop, Text editors, Git, GitHub
