@@ -4,6 +4,8 @@
 _right click links to open in a new tab_
 - [Rogue Pickings](/rogue/index.html)
 - [Jubilee Austen](/austen/index.html)
+- [Recipe Cards](/recipe/index.html)
+- [Vision Board](/vision/index.html)
 
 ## Learning Path: ##
 - [x] HTML & CSS

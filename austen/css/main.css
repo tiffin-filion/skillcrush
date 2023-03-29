@@ -207,6 +207,10 @@ header h2 {
 
 /****** Projects Page Styles ******/
 /****** Projects Page Projects Styles ******/
+.projects-hero {
+    background-color: var(--contact-background);
+}
+
 #projects {
     background: var(--skills-background);
     text-align: center;
