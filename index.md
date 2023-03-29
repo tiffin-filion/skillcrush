@@ -6,6 +6,7 @@ _right click links to open in a new tab_
 - [Jubilee Austen](/austen/index.html)
 - [Recipe Cards](/recipe/index.html)
 - [Vision Board](/vision/index.html)
+- [Unplugged](/unplugged/index.html)
 
 ## Learning Path: ##
 - [x] HTML & CSS
