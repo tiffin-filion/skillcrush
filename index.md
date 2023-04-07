@@ -7,6 +7,7 @@ _right click links to open in a new tab_
 - [Recipe Cards](/recipe/index.html)
 - [Vision Board](/vision/index.html)
 - [Unplugged](/unplugged/index.html)
+- [Guess The Word](/guess-the-word/index.html)
 
 ### JavaScript Practice Projects: ###
 _right click links to open in a new tab_
