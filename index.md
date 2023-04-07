@@ -8,6 +8,12 @@ _right click links to open in a new tab_
 - [Vision Board](/vision/index.html)
 - [Unplugged](/unplugged/index.html)
 
+### JavaScript Practice Projects: ###
+_right click links to open in a new tab_
+- [Random Image Generator](/javaScript/image-gen/index.html)
+- [Random User Generator](/javaScript/user-gen/index.html)
+- [Field Trip List for Unregistered Students](/javaScript/field-trip/index.html)
+
 ## Learning Path: ##
 - [x] HTML & CSS
 - [x] Working with Git & GitHub
@@ -20,4 +26,4 @@ _right click links to open in a new tab_
 HTML, CSS, DevTools, Version Control, Command Line, Local & Remote Repositories, Responsive Typography, Flexbox, Media Queries & Standard Breakpoints, Basic JavaScript
 
 #### Tools: ####
-FTP Client, Photoshop, Text editors, Git, GitHub
+FTP Client, Photoshop, Text editors, Git, GitHub, Visual Studio Code, CodeSandbox.io
