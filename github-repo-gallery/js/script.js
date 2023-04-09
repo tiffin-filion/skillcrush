@@ -1,5 +1,7 @@
 // select div with class of overview - will show profile info
-const profileInfo = document.querySelector(".overview");
+const profileInfo = document.querySelector("div.overview");
+// select unordered list of repos
+const repoList = document.querySelector("ul.repo-list");
 // save github username
 const username = "tiffin-filion";
 
@@ -26,4 +28,24 @@ const displayInfo = function(data) {
     profileInfo.append(div);
 }
 
+// fetch repository info
+const fetchRepos = async function() {
+    const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=100`);
+    const data = await response.json();
+    displayRepos(data);
+}
+
+// display repo info on page
+const displayRepos = function(repos) {
+    for(let repo of repos) {
+        let li = document.createElement("li");
+        let h3 = document.createElement("h3");
+        li.classList.add("repo");
+        h3.innerText = `${repo.name}`;
+        li.append(h3);
+        repoList.append(li);
+    }
+}
+
 fetchGitHubProfile();
+fetchRepos();
