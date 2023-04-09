@@ -6,6 +6,10 @@ const repoList = document.querySelector("ul.repo-list");
 const repoSection = document.querySelector("section.repos");
 // select section with individual repo info
 const repoData = document.querySelector("section.repo-data");
+// select back to repo gallery button
+const backBtn = document.querySelector("button.view-repos");
+// select search input
+const filterInput = document.querySelector("input.filter-repos");
 // save github username
 const username = "tiffin-filion";
 
@@ -42,8 +46,16 @@ const displayInfo = function(data) {
 // fetch repository info
 const fetchRepos = async function() {
     const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=100`);
-    const data = await response.json();
-    displayRepos(data);
+    if(response.status !== 200) {
+        let div = document.createElement("div");
+        div.classList.add("error");
+        div.innerHTML = response.status + ": " + response.statusText;
+        profileInfo.append(div);
+    } else {
+        const data = await response.json();
+        displayRepos(data);
+        filterInput.classList.remove("hide");
+    }
 }
 
 // display repo info on page
@@ -79,7 +91,7 @@ const fetchRepoInfo = async function(repoName) {
     displayRepoLanguage(repoInfo, languages);
 }
 
-// display single repo language info
+// display single repo info
 const displayRepoLanguage = function(repoInfo, languages) {
     repoData.innerHTML = "";
     const div = document.createElement("div");
@@ -91,7 +103,30 @@ const displayRepoLanguage = function(repoInfo, languages) {
     repoData.append(div);
     repoData.classList.remove("hide");
     repoList.classList.add("hide");
+    backBtn.classList.remove("hide");
 }
+
+// back to gallery button functionality
+backBtn.addEventListener("click", function() {
+    repoList.classList.remove("hide");
+    repoData.classList.add("hide");
+    backBtn.classList.add("hide");
+})
+
+// search box functionality
+filterInput.addEventListener("input", function(e) {
+    const inputText = e.target.value;
+    const repos = document.querySelectorAll(".repo");
+    const searchText = inputText.toLowerCase();
+    for(let repo of repos) {
+        let repoName = repo.innerText;
+        if(repoName.includes(searchText)) {
+            repo.classList.remove("hide");
+        } else {
+            repo.classList.add("hide");
+        }
+    }
+})
 
 fetchGitHubProfile();
 fetchRepos();
