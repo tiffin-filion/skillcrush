@@ -2,16 +2,21 @@
 
 ## Projects: ##
 _right click links to open in a new tab_
-- [Rogue Pickings](/rogue/index.html)
-- [Jubilee Austen](/austen/index.html)
-- [Recipe Cards](/recipe/index.html)
-- [Vision Board](/vision/index.html)
-- [Unplugged](/unplugged/index.html)
-- [Guess The Word](/guess-the-word/index.html)
-- [GitHub Repo Gallery](/github-repo-gallery/index.html)
+- [Simple One-Page Website (HTML, CSS)](/austen/index.html)
+- [Rogue Pickings (HTML, CSS, Flexbox, Media Queries, Responsive Typography)](/rogue/index.html)
+- [Vision Board (HTML, CSS)](/vision/index.html)
+- [Recipe Card (HTML, CSS)](/recipe/index.html)
+- [Host Project on GitHub Pages (Version Control)](../)
+- [Unplugged (CSS, Flexbox, HTML, Media Queries, Responsive Typography)](/unplugged/index.html)
+- [Guess The Word Game (Manipulate the DOM, Vanilla JavaScript)](/guess-the-word/index.html)
+- [GitHub Repo Gallery (APIs, Manipulate the DOM)](/github-repo-gallery/index.html)
+- Hotel Booking App (ES6, JSX, Managing data flow, Manipulate the DOM)
+- Sticky Note App (ES6, JSX, Managing data flow, Manipulate the DOM)
+- Name Tags (ES6, JSX, Managing data flow)
 
 ### JavaScript Practice Projects: ###
 _right click links to open in a new tab_
+- [CodeSandBox.io profile](https://codesandbox.io/u/tiffin-filion)
 - [Epic Mix](/codesandbox-projects/epic-mix/index.html)
 - [Field Trip List for Unregistered Students](/javaScript/field-trip/index.html)
 - [Potluck Guest List](/codesandbox-projects/potluck-guest-list/index.html)
@@ -28,8 +33,13 @@ _right click links to open in a new tab_
 - [ ] Introduction to JavaScript React
 - [ ] Build and Launch your Portfolio
 
+### Bonus Skills: ##
+- [ ] Introduction to WordPress
+- [ ] WordPress Professional Best Practices
+- [ ] Introduction to Ruby
+
 #### Skills: ####
-HTML5, CSS3, DevTools, Git, Version Control, Command Line, Local & Remote Repositories, Responsive Typography, Flexbox, Media Queries & Standard Breakpoints, Basic JavaScript, APIs, DOM Manipulation, Vanilla JS, React
+CSS3, HTML5, Git, Command Line, GitHub, Version Control, Flexbox, Media Queries, Responsive Typography, APIs, Manipulate the DOM, Vanilla JavaScript, ES6, JSX, Managing Data Flow
 
 #### Tools: ####
-Filezilla, GitHub, Visual Studio Code, CodeSandbox.io
+Chrome DevTools, Text editors, Git, GitHub, Photoshop, CodeSandbox
