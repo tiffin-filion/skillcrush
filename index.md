@@ -26,17 +26,12 @@ _right click links to open in a new tab_
 - [Subscription Calculator](/codesandbox-projects/subscription-calculator/index.html)
 
 ## Learning Path: ##
-- [x] HTML & CSS
-- [x] Working with Git & GitHub
-- [x] Coding Reponsive Websites
-- [x] JavaScript Fundamentals
-- [ ] Introduction to JavaScript React
-- [ ] Build and Launch your Portfolio
-
-### Bonus Skills: ##
-- [ ] Introduction to WordPress
-- [ ] WordPress Professional Best Practices
-- [ ] Introduction to Ruby
+- [x]  HTML & CSS
+- [x]  Working with Git & GitHub
+- [x]  Coding Reponsive Websites
+- [x]  JavaScript Fundamentals
+- [ ]  Introduction to JavaScript React
+- [ ]  Build and Launch your Portfolio
 
 #### Skills: ####
 CSS3, HTML5, Git, Command Line, GitHub, Version Control, Flexbox, Media Queries, Responsive Typography, APIs, Manipulate the DOM, Vanilla JavaScript, ES6, JSX, Managing Data Flow
