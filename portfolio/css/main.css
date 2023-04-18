@@ -1,0 +1,30 @@
+::root {
+    --heading-font: 'Alata', sans-serif;
+    --paragraph-font: 'Nunito Sans', sans-serif;
+    --dark-background: #351d77;
+    --dark-font: #eee4f0;
+    --dark-button-default: #ec91c4;
+    --dark-button-hover: #4fbedc;
+    --bright-background: #ec91c4;
+    --bright-font: #351d77;
+    --bright-button-default: #351d77;
+    --bright-button-hover:#d4d3e9;
+    --pastel1-background: #eee4f0;
+    --pastel1-font: #351d77;
+    --pastel1-button-default: #ec91c4;
+    --pastel1-button-hover: #f4bedc;
+    --pastel2-background: #e8f0e4;
+    --pastel2-font: #351d77;
+    --pastel2-button-default: #e9b14c;
+    --pastel2-button-hover: #f8d697;
+}
+
+body {
+    font-size: 20px;
+    font-family: var(--paragraph-font);
+    color: var(--dark-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}

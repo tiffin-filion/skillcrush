@@ -1,74 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Developer Portfolio Website</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
     </head>
+
     <body>
         <header>
             <h1>Hi, I'm Tiffin!</h1>
-            <h2>I'm a Web Developer who creates beautiful, memorable websites in Tacoma, WA.</h2>
+            <h2>I am a current functional QA analyst who'd like to transition into automation.</h2>
         </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <section id="about">
             <h2>About</h2>
+            <h3>Tiffin, the Automation Analyst.</h3>
             <picture>
-                <img src="https://picsum.photos/200" alt="image of Tiffin">
+                <img src="img/avatar.webp" alt="image of Tiffin" width="200">
             </picture>
-            <h3>Web Developer</h3>
-            <p>What got me here?</p>
-            <p>Do I have any interests, hobbies or passions I want to share?</p>
+            <p>I've always had an interest in the web since I first had access to it in the late 90's. Back then it was so much simpler (and boring!) to create a page. Now you can do so much.</p>
+            <p>I knit, crochet, paint with acrylic, paint with watercolor, use pastels and inks, and create multi-media pieces. Anything that is creative and has a kit, I'm going to try it.</p>
         </section>
         <section id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Responsive Design</li>
+                <li>CSS3</li>
+                <li>HTML5</li>
+                <li>Git & The Command Line</li>
+                <li>GitHub & Version Control</li>
                 <li>Flexbox</li>
-                <li>GitHub</li>
+                <li>Media Queries</li>
+                <li>Responsive Typography</li>
                 <li>APIs</li>
+                <li>Manipulate the DOM</li>
+                <li>Vanilla JavaScript</li>
             </ul>
             <h3>Tools</h3>
             <ul>
-                <li>Filezilla FTP Client</li>
+                <li>Chrome DevTools</li>
                 <li>Git</li>
                 <li>GitHub</li>
-                <li>Visual Studio Code</li>
+                <li>Photoshop</li>
                 <li>CodeSandbox</li>
-                <!-- https://learn.skillcrush.com/learn-the-skills/?tab=report -->
+                <li>Visual Studio Code</li>
             </ul>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <form></form>
-            <ul>
-                <li>LinkedIn</li>
-                <li>GitHub</li>
-            </ul>
-        </section>
+        
         <section id="projects">
             <h2>Projects</h2>
             <article class="project">
-                <h3>Title</h3>
-                <a href="#" target="_blank">Project Link</a>
+                <h3>Name Tags</h3>
+                <a href="https://codesandbox.io/s/react-l8-build-your-name-tag-text-inputs-lme3df" target="_blank" rel="noopener nofollow">Project Link</a>
                 <picture>
-                    <img src="https://picsum.photos/200" alt="project page screenshot">
+                    <img src="img/names.webp"
+                        alt="project page screenshot" width="320">
                 </picture>
                 <h4>Skills</h4>
+                <ul>
+                    <li>React</li>
+                    <li>ES6</li>
+                    <li>JSX</li>
+                    <li>Managing Data Flow</li>
+                </ul>
                 <h4>Tools</h4>
-                <p>description - what is the site/app? unique features? main languages/skills/tools used to build it?</p>
+                <ul>
+                    <li>CodeSandBox</li>
+                </ul>
+                <p>Build a name tag generator to create bulk name tags using functional components and ES6 modules.</p>
+            </article>
+            <article class="project">
+                <h3>Hotel Booking App</h3>
+                <a href="https://codesandbox.io/s/react-l7-stateful-hotel-filters-m8gm2d
+                " target="_blank" rel="noopener nofollow">Project Link</a>
+                <picture>
+                    <img src="img/hotel.webp"
+                        alt="project page screenshot" width="320">
+                </picture>
+                <h4>Skills</h4>
+                <ul>
+                    <li>React</li>
+                    <li>ES6</li>
+                    <li>JSX</li>
+                    <li>Managing Data Flow</li>
+                    <li>Manipulate the DOM</li>
+                </ul>
+                <h4>Tools</h4>
+                <ul>
+                    <li>CodeSandBox</li>
+                </ul>
+                <p>Build a search tool that allows you to filter the type of hotel you want to stay in.</p>
+            </article>
+            <article class="project">
+                <h3>GitHub Repo Gallery</h3>
+                <a href="https://tiffin-filion.github.io/skillcrush/github-repo-gallery/index.html
+                " target="_blank" rel="noopener nofollow">Project Link</a>
+                <picture>
+                    <img src="img/github.webp"
+                        alt="project page screenshot" width="320">
+                </picture>
+                <h4>Skills</h4>
+                <ul>
+                    <li>Vanilla JavaScript</li>
+                    <li>APIs</li>
+                    <li>Manipulate the DOM</li>
+                </ul>
+                <h4>Tools</h4>
+                <ul>
+                    <li>GitHub</li>
+                    <li>CodeSandBox</li>
+                </ul>
+                <p>Project will pull data from GitHub portfolio to create a gallery of repos. Visitors to the site can click on repos to see more details.</p>
+            </article>
+            <article class="project">
+                <h3>Guess the Word Game</h3>
+                <a href="https://tiffin-filion.github.io/skillcrush/guess-the-word/index.html
+                " target="_blank" rel="noopener nofollow">Project Link</a>
+                <picture>
+                    <img src="img/guess.webp"
+                        alt="project page screenshot" width="320">
+                </picture>
+                <h4>Skills</h4>
+                <ul>
+                    <li>Vanilla JavaScript</li>
+                    <li>Manipulate the DOM</li>
+                </ul>
+                <h4>Tools</h4>
+                <ul>
+                    <li>GitHub</li>
+                    <li>Visual Studio Code</li>
+                </ul>
+                <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+            </article>
+            <article class="project">
+                <h3>Responsive Rogue Pickings</h3>
+                <a href="https://tiffin-filion.github.io/skillcrush/rogue/index.html
+                " target="_blank" rel="noopener nofollow">Project Link</a>
+                <picture>
+                    <img src="img/rogue.webp"
+                        alt="project page screenshot" width="320">
+                </picture>
+                <h4>Skills</h4>
+                <ul>
+                    <li>CSS3</li>
+                    <li>Flexbox</li>
+                    <li>HTML5</li>
+                    <li>Media Queries</li>
+                    <li>Responsive Typography</li>
+                </ul>
+                <h4>Tools</h4>
+                <ul>
+                    <li>GitHub</li>
+                    <li>Visual Studio Code</li>
+                </ul>
+                <p>Transform a site from static to responsive so it looks great at any device size.</p>
             </article>
         </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <address>Tiffin<br>Tacoma, WA</address>
+            <form><!-- create a form that will send a message --></form>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/tiffin/" target="_blank" rel="noopener nofollow">LinkedIn</a></li>
+                <li><a href="https://codepen.io/tiggertiffin87" target="_blank" rel="noopener nofollow">CodePen Profile</a></li>
+                <li><a href="https://github.com/tiffin-filion/" target="_blank" rel="noopener nofollow">GitHub Profile</a></li>
+                <li><a href="https://codesandbox.io/u/tiffin-filion" target="_blank" rel="noopener nofollow">CodeSandBox Profile</a></li>
+            </ul>
+        </section>
+
         <footer>
-            <address>Tacoma, WA</address>
+            <p>&copy;2023</p>
             <div id="socials">
                 <ul>
-                    <li>LinkedIn</li>
-                    <li>GitHub</li>
+                    <li><a href="https://www.linkedin.com/in/tiffin/" target="_blank" rel="noopener nofollow">LinkedIn</a></li>
+                    <li><a href="https://tiffin-filion.github.io" target="_blank" rel="noopener nofollow">GitHub IO</a></li>
                 </ul>
             </div>
         </footer>
