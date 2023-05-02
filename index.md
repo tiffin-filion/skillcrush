@@ -10,9 +10,9 @@ _right click links to open in a new tab_
 - [Unplugged (CSS, Flexbox, HTML, Media Queries, Responsive Typography)](/unplugged/index.html)
 - [Guess The Word Game (Manipulate the DOM, Vanilla JavaScript)](/guess-the-word/index.html)
 - [GitHub Repo Gallery (APIs, Manipulate the DOM)](/github-repo-gallery/index.html)
-- Hotel Booking App (ES6, JSX, Managing data flow, Manipulate the DOM)
-- Sticky Note App (ES6, JSX, Managing data flow, Manipulate the DOM)
-- Name Tags (ES6, JSX, Managing data flow)
+- [Hotel Booking App (ES6, JSX, Managing data flow, Manipulate the DOM)](https://codesandbox.io/s/react-l7-stateful-hotel-filters-m8gm2d)
+- [Sticky Note App (ES6, JSX, Managing data flow, Manipulate the DOM)](https://codesandbox.io/s/react-l12-build-your-big-component-jpp0ft)
+- [Name Tags (ES6, JSX, Managing data flow)](https://codesandbox.io/s/react-l8-build-your-name-tag-text-inputs-lme3df)
 
 ### JavaScript Practice Projects: ###
 _right click links to open in a new tab_
@@ -30,11 +30,11 @@ _right click links to open in a new tab_
 - [x] Working with Git & GitHub
 - [x] Coding Reponsive Websites
 - [x] JavaScript Fundamentals
-- [ ] Introduction to JavaScript React
-- [ ] Build and Launch your Portfolio
+- [x] Introduction to JavaScript React
+- [x] Build and Launch your Portfolio
 
 #### Skills: ####
 CSS3, HTML5, Git, Command Line, GitHub, Version Control, Flexbox, Media Queries, Responsive Typography, APIs, Manipulate the DOM, Vanilla JavaScript, ES6, JSX, Managing Data Flow
 
 #### Tools: ####
-Chrome DevTools, Text editors, Git, GitHub, Photoshop, CodeSandbox
+Chrome DevTools, Visual Studio Code, Git, GitHub, Photoshop, CodeSandbox
