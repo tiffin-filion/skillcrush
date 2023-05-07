@@ -44,6 +44,14 @@ ul {
     flex-wrap: wrap;
 }
 
+a:link,
+a:visited {
+    color: var(--pastel2-font);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 nav {
     text-transform: uppercase;
     font-weight: bold;
@@ -55,8 +63,6 @@ nav ul li {
 
 nav a:link,
 nav a:visited {
-    text-decoration: none;
-    color: var(--pastel2-font);
     padding: 1rem;
 }
 
@@ -130,8 +136,6 @@ header {
 
 #projects a:link,
 #projects a:visited {
-    text-decoration: none;
-    color: var(--pastel2-font);
     padding: .5rem 1rem;
     background-color: var(--pastel2-button-default);
     border-radius: 50px;
@@ -152,13 +156,17 @@ header {
 
 #skills ul {
     text-transform: uppercase;
+    text-align: center;
 }
 
 #skills ul li {
     padding: 1rem;
     background-color: var(--pastel2-button-hover);
     width: 10rem;
-    margin: 1rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about {
@@ -198,4 +206,82 @@ footer {
     padding: 1rem;
     text-align: center;
     font-size: .75rem;
+}
+
+@media screen and (min-width: 758px) {
+    #projects .content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: calc(50% - 2rem);
+        margin: 0 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #skills ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        width: 8rem;
+    }
+
+    #about .left {
+        display: flex;
+        justify-content: center;
+    }
+
+    #about .right {
+        margin: 0 1rem;
+    }
+
+    #about h3 {
+        text-align: center;
+    }
+
+    #contact .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    div.content-form,
+    div.content-social {
+        width: calc(50% - 2rem);
+        margin: 0 1rem;
+    }
+
+    #contact .content-social img {
+    width: calc((50vw / 5) - 1rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .project {
+        justify-content: flex-start;
+    }
+
+    #projects .proj-link {
+    width: 100%;
+    }
+
+    #about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #about .left {
+        
+margin-left: 1rem;
+    }
+
+    #about h3 {
+        text-align: left;
+    }
 }
