@@ -15,7 +15,8 @@
     </head>
 
     <body>
-        <div id="hero">
+
+        <header>
             <nav>
                 <ul>
                     <li><a href="#projects">Projects</a></li>
@@ -24,163 +25,130 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <header title="Photo by unsplash.com/@efekurnaz Efe Kurnaz Unsplash">
-                <h1>I'm Tiffin.</h1>
-                <h2>Quality Assurance for the Web.</h2>
-            </header>
-        </div>
-        
+            <h1>I'm Tiffin.</h1>
+            <h2>Quality Assurance for the Web.</h2>
+        </header>
+
         <section id="projects">
-            <h2>Projects</h2>
-            <div class="content">
+            <h1 class="section-name">Projects</h1>
+            <div class="project-list">
                 <div class="project">
-                    <img src="img/names.webp" alt="name tags page screenshot">
-                    <h3>Name Tags</h3>
-                    <div class="proj-content">
-                        <p class="desc">Build a name tag generator to create
-                            bulk name
-                            tags using functional components and ES6 modules.
-                        </p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Skills:</strong> React, ES6,
-                            JSX,
-                            Managing Data Flow
-                        </p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Tools:</strong> CodeSandBox
-                        </p>
-                    </div>
-                    <p class="proj-link"><a
-                            href="https://codesandbox.io/s/react-l8-build-your-name-tag-text-inputs-lme3df"
-                            target="_blank" rel="noopener nofollow"
-                            class="proj-link">Live Page</a></p>
+                    <img src="img/names.webp" class="proj-img"
+                        alt="name tags page screenshot">
+                    <h3 class="proj-name">Name Tags</h3>
+                    <p class="proj-desc">Build a name tag generator to create
+                        bulk name
+                        tags using functional components and ES6 modules.
+                    </p>
+                    <p class="proj-skills"><strong>Skills:</strong> React, ES6,
+                        JSX,
+                        Managing Data Flow
+                    </p>
+                    <p class="proj-tools"><strong>Tools:</strong> CodeSandBox
+                    </p>
+                    <a href="https://codesandbox.io/s/react-l8-build-your-name-tag-text-inputs-lme3df"
+                        target="_blank" rel="noopener nofollow"
+                        class="proj-link">Live Page</a>
                 </div>
                 <div class="project">
-                    <img src="img/sticky.webp" alt="sticky note app page screenshot">
-                    <h3>Sticky Note App</h3>
-                    <div class="proj-content">
-                        <p class="desc">Create an interactive app that will let
-                            uses create "sticky notes" on their computer to keep
-                            track of to-do items.
-                        </p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Skills:</strong> ES6, JSX,
-                            Managing data flow, Manipulate the DOM
-                        </p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Tools:</strong> CodeSandBox
-                        </p>
-                    </div>
-                    <p class="proj-link"><a
-                            href="https://codesandbox.io/s/react-l12-build-your-big-component-jpp0ft"
-                            target="_blank" rel="noopener nofollow"
-                            class="proj-link">Live Page</a></p>
+                    <img src="img/sticky.webp" class="proj-img"
+                        alt="sticky note app page screenshot">
+                    <h3 class="proj-name">Sticky Note App</h3>
+                    <p class="proj-desc">Create an interactive app that will let
+                        uses create "sticky notes" on their computer to keep
+                        track of to-do items.
+                    </p>
+                    <p class="proj-skills"><strong>Skills:</strong> ES6, JSX,
+                        Managing data flow, Manipulate the DOM
+                    </p>
+                    <p class="proj-tools"><strong>Tools:</strong> CodeSandBox
+                    </p>
+                    <a href="https://codesandbox.io/s/react-l12-build-your-big-component-jpp0ft"
+                        target="_blank" rel="noopener nofollow"
+                        class="proj-link">Live Page</a>
                 </div>
                 <div class="project">
-                    <img src="img/hotel.webp" alt="hotel booking app page screenshot">
-                    <h3>Hotel Booking App</h3>
-                    <div class="proj-content">
-                        <p class="desc">Build a search tool that allows you to
-                            filter
-                            the type of hotel you want to stay in.</p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Skills:</strong> React, ES6,
-                            JSX,
-                            Managing Data Flow, Manipulate the DOM</p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Tools:</strong> CodeSandBox
-                        </p>
-                    </div>
-                    <p class="proj-link"><a href="https://codesandbox.io/s/react-l7-stateful-hotel-filters-m8gm2d
+                    <img class="proj-img" src="img/hotel.webp"
+                        alt="hotel booking app page screenshot">
+                    <h3 class="proj-name">Hotel Booking App</h3>
+                    <p class="proj-desc">Build a search tool that allows you to
+                        filter
+                        the type of hotel you want to stay in.</p>
+                    <p class="proj-skills"><strong>Skills:</strong> React, ES6,
+                        JSX,
+                        Managing Data Flow, Manipulate the DOM</p>
+                    <p class="proj-tools"><strong>Tools:</strong> CodeSandBox
+                    </p>
+                    <a href="https://codesandbox.io/s/react-l7-stateful-hotel-filters-m8gm2d
                 " target="_blank" rel="noopener nofollow"
-                            class="proj-link">Live Page</a></p>
+                        class="proj-link">Live Page</a>
                 </div>
                 <div class="project">
-                    <img src="img/github.webp" alt="github repo gallery page screenshot">
-                    <h3>GitHub Repo Gallery</h3>
-                    <div class="proj-content">
-                        <p class="desc">Project will pull data from GitHub
-                            portfolio
-                            to
-                            create a gallery of repos. Visitors to the site can
-                            click on
-                            repos to see more details.</p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Skills:</strong> Vanilla
-                            JavaScript,
-                            APIs, Manipulate the DOM</p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Tools:</strong> GitHub,
-                            CodeSandBox
-                        </p>
-                    </div>
-                    <p class="proj-link"><a href="https://tiffin-filion.github.io/skillcrush/github-repo-gallery/index.html
+                    <img class="proj-img" src="img/github.webp"
+                        alt="github repo gallery page screenshot">
+                    <h3 class="proj-name">GitHub Repo Gallery</h3>
+                    <p class="proj-desc">Project will pull data from GitHub
+                        portfolio
+                        to
+                        create a gallery of repos. Visitors to the site can
+                        click on
+                        repos to see more details.</p>
+                    <p class="proj-skills"><strong>Skills:</strong> Vanilla
+                        JavaScript,
+                        APIs, Manipulate the DOM</p>
+                    <p class="proj-tools"><strong>Tools:</strong> GitHub,
+                        CodeSandBox
+                    </p>
+                    <a href="https://tiffin-filion.github.io/skillcrush/github-repo-gallery/index.html
                 " target="_blank" rel="noopener nofollow"
-                            class="proj-link">Live Page</a></p>
+                        class="proj-link">Live Page</a></p>
                 </div>
                 <div class="project">
-                    <img src="img/guess.webp" alt="guess the word game page screenshot">
-                    <h3>Guess the Word Game</h3>
-                    <div class="proj-content">
-                        <p class="desc">Players guess the word by entering one
-                            letter at
-                            a time. If the player guesses all the letters
-                            correctly
-                            before they use up their allotted guesses, they win!
-                        </p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Skills:</strong> Vanilla
-                            JavaScript,
-                            Manipulate the DOM</p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Tools:</strong> GitHub, Visual
-                            Studio
-                            Code</p>
-                    </div>
-                    <p class="proj-link"><a href="https://tiffin-filion.github.io/skillcrush/guess-the-word/index.html
+                    <img class="proj-img" src="img/guess.webp"
+                        alt="guess the word game page screenshot">
+                    <h3 class="proj-name">Guess the Word Game</h3>
+                    <p class="proj-desc">Players guess the word by entering one
+                        letter at
+                        a time. If the player guesses all the letters
+                        correctly
+                        before they use up their allotted guesses, they win!
+                    </p>
+                    <p class="proj-skills"><strong>Skills:</strong> Vanilla
+                        JavaScript,
+                        Manipulate the DOM</p>
+                    <p class="proj-tools"><strong>Tools:</strong> GitHub, Visual
+                        Studio
+                        Code</p>
+                    <a href="https://tiffin-filion.github.io/skillcrush/guess-the-word/index.html
                 " target="_blank" rel="noopener nofollow"
-                            class="proj-link">Live Page</a></p>
+                        class="proj-link">Live Page</a></p>
                 </div>
                 <div class="project">
-                    <img src="img/rogue.webp" alt="responsive rogue pickings page screenshot">
-                    <h3>Responsive Rogue Pickings</h3>
-                    <div class="proj-content">
-                        <p class="desc">Transform a site from static to
-                            responsive
-                            so it
-                            looks great at any device size.</p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Skills:</strong> CSS3,
-                            Flexbox,
-                            HTML5,
-                            Media Queries, Responsive Typography</p>
-                    </div>
-                    <div class="proj-content">
-                        <p class="skills"><strong>Tools:</strong> GitHub, Visual
-                            Studio
-                            Code</p>
-                    </div>
-                    <p class="proj-link"><a href="https://tiffin-filion.github.io/skillcrush/rogue/index.html
+                    <img class="proj-img" src="img/rogue.webp"
+                        alt="responsive rogue pickings page screenshot">
+                    <h3 class="proj-name">Responsive Rogue Pickings</h3>
+                    <p class="proj-desc">Transform a site from static to
+                        responsive
+                        so it
+                        looks great at any device size.</p>
+                    <p class="proj-skills"><strong>Skills:</strong> CSS3,
+                        Flexbox,
+                        HTML5,
+                        Media Queries, Responsive Typography</p>
+                    <p class="proj-tools"><strong>Tools:</strong> GitHub, Visual
+                        Studio
+                        Code</p>
+                    <a href="https://tiffin-filion.github.io/skillcrush/rogue/index.html
                 " target="_blank" rel="noopener nofollow"
-                            class="proj-link">Live Page</a></p>
+                        class="proj-link">Live Page</a>
                 </div>
             </div>
         </section>
+
         <section id="skills">
-            <h2>Skills</h2>
-            <h3>Developer Skills</h3>
-            <ul>
+            <h1 class="section-name">Skills</h1>
+            <h3 class="skills-dev-title">Developer Skills</h3>
+            <ul class="skills-list">
                 <li>CSS3</li>
                 <li>HTML5</li>
                 <li>Git & The Command Line</li>
@@ -196,8 +164,8 @@
                 <li>JSX</li>
                 <li>Managing Data Flow</li>
             </ul>
-            <h3>Tech Stack</h3>
-            <ul>
+            <h3 class="skills-dev-title">Tech Stack</h3>
+            <ul class="tools-list">
                 <li>Chrome DevTools</li>
                 <li>Git</li>
                 <li>GitHub</li>
@@ -208,12 +176,13 @@
         </section>
 
         <section id="about">
-            <div class="left">
+            <div class="about-img">
                 <img src="img/avatar.webp" alt="Tiffin">
             </div>
-            <div class="right">
-                <h2>About</h2>
-                <h3>I'm a functional QA engineer, automation QA engineer and front-end web developer</h3>
+            <div class="about-content">
+                <h1 class="section-name">About</h1>
+                <h3>I'm a functional QA engineer, automation QA engineer and
+                    front-end web developer</h3>
                 <p>I've always had an interest in the web since I first had
                     access
                     to it in the late 90's. Back then it was so much simpler
@@ -228,10 +197,10 @@
         </section>
 
         <section id="contact">
-            <h2>Let's Connect</h2>
-            <div class="content">
-                <div class="content-form">
-                    <h3>Hire Me</h3>
+            <h1 class="section-name">Let's Connect</h1>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3 class="contact-title">Hire Me</h3>
                     <script
                         src="https://js.hsforms.net/forms/embed/v2.js"></script>
                     <script>
@@ -242,9 +211,9 @@
                         });
                     </script>
                 </div>
-                <div class="content-social">
-                    <h3>Follow Me</h3>
-                    <ul>
+                <div class="contact-social">
+                    <h3 class="contact-title">Follow Me</h3>
+                    <ul class="social-list">
                         <li><a href="https://www.linkedin.com/in/tiffin/"
                                 target="_blank" rel="noopener nofollow"
                                 title="LinkedIn"><img
@@ -279,7 +248,8 @@
         </section>
 
         <footer>
-            <p>&copy;2023 | Tiffin | <a href="https://www.flaticon.com/authors/pixel-perfect"
+            <p>&copy;2023 | Tiffin | <a
+                    href="https://www.flaticon.com/authors/pixel-perfect"
                     target="_blank" rel="noopener nofollow">Icons by Pixel
                     Perfect</a></p>
         </footer>
