@@ -103,7 +103,7 @@ header h2 {
 }
 
 .proj-img {
-    padding: 1rem 0;
+    margin: 1rem 0;
     width: 100%;
     aspect-ratio: 4/3;
     box-shadow: 0rem 0.5rem 1rem 0px rgba(53, 29, 119, 0.5);
@@ -246,7 +246,6 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 1rem;
-        padding: 1rem 0;
     }
 
     .project {
@@ -277,6 +276,7 @@ footer {
     .contact-form, 
     .contact-social {
         width: 50%;
+        padding: 0 1rem;
     }
 
     #contact .contact-title {
@@ -284,7 +284,6 @@ footer {
     }
 
     #contact .social-list {
-        flex-flow: column;
         align-items: center;
     }
 
@@ -293,7 +292,7 @@ footer {
     }
 
     #contact .social-list img {
-        width: calc((70vw / 5) - 2rem);
+        width: calc((50vw / 5) - 2rem);
     }
 }
 
@@ -304,7 +303,7 @@ footer {
     }
 
     .project {
-        grid-template-rows: 38% 5% 18% 8% 5% 13%;
+        grid-template-rows: 41% 4% 17% 7% 4% 11%;
     }
 }
 
