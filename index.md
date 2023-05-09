@@ -10,9 +10,7 @@ _right click links to open in a new tab_
 - [Unplugged (CSS, Flexbox, HTML, Media Queries, Responsive Typography)](/unplugged/index.html)
 - [Guess The Word Game (Manipulate the DOM, Vanilla JavaScript)](/guess-the-word/index.html)
 - [GitHub Repo Gallery (APIs, Manipulate the DOM)](/github-repo-gallery/index.html)
-- [Hotel Booking App (ES6, JSX, Managing data flow, Manipulate the DOM)](https://codesandbox.io/s/react-l7-stateful-hotel-filters-m8gm2d)
-- [Sticky Note App (ES6, JSX, Managing data flow, Manipulate the DOM)](https://codesandbox.io/s/react-l12-build-your-big-component-jpp0ft)
-- [Name Tags (ES6, JSX, Managing data flow)](https://codesandbox.io/s/react-l8-build-your-name-tag-text-inputs-lme3df)
+- [Personal Portfolio](/portfolio/index.html)
 
 ### JavaScript Practice Projects: ###
 _right click links to open in a new tab_
@@ -24,6 +22,9 @@ _right click links to open in a new tab_
 - [Random User Generator](/javaScript/user-gen/index.html)
 - [Sharon's Pet Rescue](/codesandbox-projects/sharons-pet-rescue/index.html)
 - [Subscription Calculator](/codesandbox-projects/subscription-calculator/index.html)
+- [Hotel Booking App (ES6, JSX, Managing data flow, Manipulate the DOM)](https://codesandbox.io/s/react-l7-stateful-hotel-filters-m8gm2d)
+- [Sticky Note App (ES6, JSX, Managing data flow, Manipulate the DOM)](https://codesandbox.io/s/react-l12-build-your-big-component-jpp0ft)
+- [Name Tags (ES6, JSX, Managing data flow)](https://codesandbox.io/s/react-l8-build-your-name-tag-text-inputs-lme3df)
 
 ## Learning Path: ##
 - [x] HTML & CSS
