@@ -61,6 +61,14 @@ guessBtn.addEventListener("click", function(e) {
     makeGuess(input);
 })
 
+// do not refresh page on Enter keypress
+guessInput.addEventListener("keypress", function(e) {
+    if(e.key === "Enter") {
+        alert("Use button to submit guess.");
+        e.preventDefault();
+    }
+})
+
 // function to validate player's input
 const inputValidate = function(input) {
     const acceptedLetter = /[a-zA-Z]/;
