@@ -216,6 +216,7 @@ header h2 {
 
 #contact h3 {
     padding: 1.5rem 0;
+    text-align: right;
 }
 
 #contact .social-list {
@@ -277,17 +278,13 @@ footer {
         padding-left: 1rem;
     }
 
-    #contact .contact-title,
-    #contact .social-list {
-        text-align: center;
-    }
-
     #contact .social-list a {
         padding-top: 2rem;
     }
 
     #contact .social-list img {
         width: calc((50vw / 5) - 1rem);
+        margin: 1rem;
     }
 }
 
@@ -311,19 +308,13 @@ footer {
         width: 20%;
     }
 
-    .contact-title {
-        text-align: left;
-    }
-
-    #contact .social-list {
-        flex-flow: row;
-    }
-
-    #contact .social-list a {
-        padding-top: 6rem;
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
     }
 
     #contact .social-list img {
         width: calc((50vw / 5) - 2rem);
     }
+
 }
