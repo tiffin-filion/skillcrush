@@ -70,6 +70,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -84,8 +85,8 @@ header h2 {
 
 /******************** projects ********************/
 #projects {
-    padding-top: 4rem;
-    padding-bottom: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .project-list {
@@ -138,8 +139,8 @@ header h2 {
 
 /******************** skills ********************/
 #skills {
-    padding-top: 1.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #skills h1 {
@@ -153,8 +154,6 @@ header h2 {
 #skills ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 #skills li {
@@ -163,27 +162,32 @@ header h2 {
     align-items: center;
     text-align: center;
     background-color: var(--button-hover-color);
-    width: 10rem;
-    height: 2rem;
-    padding: 1rem;
-    margin: 0.5rem auto;
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    height: 0.9rem;
+    padding: 0.9rem;
+    margin: 0.45rem auto;
 }
 
 
 /******************** about ********************/
 #about {
     padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .about-img {
-    margin: 2rem;;
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about img {
     border: 1rem solid var(--button-default-color);
-    max-width: 20rem;
     width: 100%;
+    box-sizing: border-box;
 }
 
 #about h1 {
@@ -202,7 +206,7 @@ header h2 {
 
 /******************** contact ********************/
 #contact {
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -221,11 +225,11 @@ header h2 {
 }
 
 #contact .social-list a {
-    padding-top: 6rem;
+    padding-top: 1rem;
 }
 
 #contact .social-list img {
-    width: calc((100vw / 5) - 2rem);
+    width: calc((100vw / 5) - 1rem);
     border: 2px solid transparent;
 }
 
@@ -237,7 +241,9 @@ header h2 {
 /******************** footer ********************/
 footer {
     text-align: center;
-    padding: 1rem 0 3rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 0.7rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -252,47 +258,36 @@ footer {
         grid-template-rows: 40% 4% 18% 8% 5% 12%;
     }
 
-    #about, .contact-content {
+    #skills ul li {
+        width: 27%;
+        margin: 0.2rem auto;
+    }
+
+    #about {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     .about-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
+        width: 100%;
     }
 
-    .about-content, .contact-social {
-        margin: 0 1rem;
+    .about-content {
+        padding-left: 1rem;
     }
 
-    .contact-content {
-        align-items: flex-start;
-    }
-
-    .contact-form, 
-    .contact-social {
-        width: 50%;
-        padding: 0 1rem;
-    }
-
-    #contact .contact-title {
+    #contact .contact-title,
+    #contact .social-list {
         text-align: center;
     }
 
-    #contact .social-list {
-        align-items: center;
-    }
-
     #contact .social-list a {
-        padding-top: 4rem;
+        padding-top: 2rem;
     }
 
     #contact .social-list img {
-        width: calc((50vw / 5) - 2rem);
+        width: calc((50vw / 5) - 1rem);
     }
 }
 
@@ -310,6 +305,10 @@ footer {
 @media screen and (min-width: 1440px) {
     .project {
         grid-template-rows: 48% 4% 14% 8% 5% 13%;
+    }
+
+    #skills ul li {
+        width: 20%;
     }
 
     .contact-title {
