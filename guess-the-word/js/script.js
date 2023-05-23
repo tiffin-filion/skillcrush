@@ -172,6 +172,7 @@ const startOver = function () {
     span.innerHTML = "";
     remaining.classList.add("hide");
     progress.classList.add("hide");
+    guessedLetters = [];
     guessedLettersList.classList.add("hide");
     playAgainBtn.classList.remove("hide");
 }
@@ -183,6 +184,7 @@ playAgainBtn.addEventListener("click", function () {
     remainingGuesses = 10;
     span.innerHTML = `${remainingGuesses} guesses`;
     word = "";
+    guessedLetters = [];
     guessedLettersList.classList.remove("hide");
     guessBtn.classList.remove("hide");
     progress.classList.remove("hide");
