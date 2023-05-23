@@ -7,6 +7,10 @@
     --button-hover-color: #f8d697;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 20px;
     margin: 0 auto;
@@ -61,6 +65,7 @@ a:active {
 /******************** header ********************/
 header {
     text-align: center;
+    font-size: .87em;
 }
 
 nav {
@@ -71,6 +76,14 @@ nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+nav li {
+    margin: 1em;
+}
+
+nav li a {
+    padding: 1em;
 }
 
 header h1 {
